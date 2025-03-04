@@ -1,6 +1,7 @@
-const express = requiere("express");
+const express = require("express");
 const router = express.Router();
 const multer = require("multer");
+const {uploadPhoto, getUserPhotos, deletePhoto} =
 require("../controllers/photoController");
 
 //Configuración de almacenamiento con Multer
