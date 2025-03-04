@@ -17,7 +17,7 @@ mongoose
 .catch((err) => console.error("Error de conexión:", err));
 
 //Importar rutas
-const photoRoutes = require("./routes/photoToutes");
+const photoRoutes = require("./routes/photoRoutes");
 app.use("/api/photos", photoRoutes);
 
 const PORT = process.env.PORT || 5000;
